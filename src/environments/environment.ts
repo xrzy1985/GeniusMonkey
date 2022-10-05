@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  bearerToken: `Bearer 4704d510-4333-11ed-968b-00be4349ca1c`,
 };
 
 /*

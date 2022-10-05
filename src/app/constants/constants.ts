@@ -1,4 +1,5 @@
 import { HttpHeaders } from '@angular/common/http';
+import { environment } from '../../environments/environment';
 
 export const arrange = 'Arrange the Deck';
 export const constants = {
@@ -6,7 +7,7 @@ export const constants = {
     dealers: [],
     headers: new HttpHeaders({
         'Content-Type': 'application/json',
-        'Authorization': `Bearer 4704d510-4333-11ed-968b-00be4349ca1c`
+        'Authorization': environment.bearerToken
     }),
     paths: {
         status: 'status',
