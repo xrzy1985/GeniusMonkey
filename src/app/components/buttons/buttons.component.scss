@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    button {
+        width: 45vw;
+        margin: 0 5px;
+    }
+}
